@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>建築パースクリエイター</title>
+    <meta name="description" content="「ずっと住みたい」と思える未来の空間を形にします。建築・インテリアパース / 3DCG制作">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=52">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo"></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#works">Works</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="メニュー">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="images/hero.jpg" alt="建築パースイメージ" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-label fade-in-up">建築パース / 3DCG Creator</p>
+            <h1 class="hero-title fade-in-up delay-1">
+                「ずっと住みたい」と思える<br>未来の空間を、形に。
+            </h1>
+            <a href="#works" class="hero-btn fade-in-up delay-3">Works を見る</a>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Works Section -->
+    <section class="works-section" id="works">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Works</span>
+                <h2 class="section-title">作品</h2>
+            </div>
+
+            <!-- Filter -->
+            <div class="filter reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="pars">パース図</button>
+                <button class="filter-btn" data-filter="exterior">外観パース</button>
+                <a href="#other-services" class="filter-btn">その他</a>
+            </div>
+
+            <!-- Works Grid -->
+            <div class="works-grid">
+
+                <div class="work-card reveal" data-category="pars">
+                    <div class="work-img-wrap">
+                        <img src="images/work1.jpg" alt="LDK インテリアパース">
+                        <div class="work-overlay"><span>View</span></div>
+                    </div>
+                    <div class="work-info">
+                        <h3>LDK インテリアパース</h3>
+                        <span class="work-tag">IMAGE PERS</span>
+                    </div>
+                </div>
+
+                <div class="work-card reveal" data-category="pars">
+                    <div class="work-img-wrap">
+                        <img src="images/work2.jpg" alt="LDK インテリアパース">
+                        <div class="work-overlay"><span>View</span></div>
+                    </div>
+                    <div class="work-info">
+                        <h3>LDK インテリアパース</h3>
+                        <span class="work-tag">IMAGE PERS</span>
+                    </div>
+                </div>
+
+                <div class="work-card reveal" data-category="pars">
+                    <div class="work-img-wrap">
+                        <img src="images/work3.jpg" alt="スペース空間パース">
+                        <div class="work-overlay"><span>View</span></div>
+                    </div>
+                    <div class="work-info">
+                        <h3>スペース空間パース</h3>
+                        <span class="work-tag">IMAGE PERS</span>
+                    </div>
+                </div>
+
+                <div class="work-card reveal" data-category="exterior">
+                    <div class="work-img-wrap">
+                        <img src="images/work6.jpg" alt="外観パース">
+                        <div class="work-overlay"><span>View</span></div>
+                    </div>
+                    <div class="work-info">
+                        <h3>外観パース</h3>
+                        <span class="work-tag">EXTERIOR PERS</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Furniture Section -->
+            <div class="furniture-section">
+                <div class="furniture-grid reveal">
+                    <div class="furniture-images">
+                        <div class="furniture-img">
+                            <img src="images/furniture.png" alt="オリジナル家具製作">
+                        </div>
+                        <div class="furniture-img2">
+                            <img src="images/furniture2.jpg" alt="家具製作2">
+                        </div>
+                    </div>
+                    <div class="furniture-content">
+                        <h3 class="furniture-heading">動画とVR作成</h3>
+                        <p class="furniture-text">図面や写真だけでは伝わらない空間の魅力を、<br><strong>3Dパース動画</strong>や、<strong>VR</strong>でわかりやすく表現し<br>提供いたします。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Furniture Section 2 (text left / image right) -->
+            <div class="furniture-section2">
+                <div class="furniture-grid2 reveal">
+                    <div class="furniture-content2">
+                        <h3 class="furniture-heading2">3DCAD作成</h3>
+                        <p class="furniture-text2">図面をもとに、設計・検討に活用できる<br>3DCADモデルを作成します。</p>
+                    </div>
+                    <div class="furniture-img3">
+                        <img src="images/furniture3.jpg" alt="3DCADモデル">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Furniture Section 3 (4 images in a row with captions) -->
+            <div class="furniture-section3" id="other-services">
+                <h3 class="furniture-section-title">Other Services</h3>
+                <div class="furniture-grid3 reveal">
+                    <div class="furniture-item">
+                        <img src="images/furniture4.png" alt="造作家具">
+                        <h4 class="furniture-caption-title">造作家具</h4>
+                        <p class="furniture-caption-text">オリジナルの家具や扉、収納等の家具を完成前にデザインやサイズ感をイメージしていただけます。</p>
+                    </div>
+                    <div class="furniture-item">
+                        <img src="images/furniture5.png" alt="俯瞰図や鳥観図">
+                        <h4 class="furniture-caption-title">俯瞰図や鳥観図</h4>
+                        <p class="furniture-caption-text">空間全体のレイアウトや動線を、一目でわかりやすく可視化できます。</p>
+                    </div>
+                    <div class="furniture-item">
+                        <img src="images/furniture6.jpg" alt="図面">
+                        <h4 class="furniture-caption-title">図面</h4>
+                        <p class="furniture-caption-text">お客様との打ち合わせや説明に使いいただける図面を作成します。</p>
+                    </div>
+                    <div class="furniture-item">
+                        <img src="images/furniture7.jpg" alt="パース図イラスト風">
+                        <h4 class="furniture-caption-title">パース図イラスト風</h4>
+                        <p class="furniture-caption-text">挿絵やパンフレット等にも使いやすい、イラスト風パースの制作も可能です。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works-more reveal">
+                <a href="https://fori.io/A-1418" target="_blank" class="btn-outline">FORIIOで作品をもっと見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img reveal">
+                    <img src="images/about.jpg" alt="ポートフォリオ">
+                </div>
+                <div class="about-content reveal">
+                    <span class="section-label">About</span>
+                    <p class="about-catch">「まだ見ぬ空間に、将来の暮らしを。」</p>
+                    <p class="about-text">
+                        建築・インテリアパース / 3DCGクリエイターとして活動しています。<br>
+                        不動産業界での実務経験を活かし、現場目線のリアルな空間表現を大切にしています。<br><br>
+                        「ずっと住み続けたくなる家」を3DCGで丁寧に可視化し、<br>
+                        理想の暮らしを具体的に思い描ける空間をご提案します。
+                    </p>
+                    <div class="services-list">
+                        <span class="service-item">3DCG制作</span>
+                        <span class="service-item">動画・VR制作</span>
+                        <span class="service-item">図面作成</span>
+                        <span class="service-item">3DCAD</span>
+                        <span class="service-item">2DCAD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Contact</span>
+                <h2 class="section-title">お問い合わせ</h2>
+                <p class="section-desc">お仕事のご依頼・ご相談はお気軽にどうぞ。</p>
+            </div>
+            <form class="contact-form reveal" id="contactForm">
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="name" placeholder="田中 花子" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">ご用件</label>
+                    <textarea id="message" name="message" rows="6" placeholder="お仕事のご依頼・ご相談内容をご記入ください。" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">送信する</button>
+            </form>
+            <div class="contact-img">
+                <img src="images/furniture8.png" alt="furniture8">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-sns">
+                    <a href="https://fori.io/A-1418" target="_blank" rel="noopener">foriio</a>
+                </div>
+                <p class="footer-copy">© 2026 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&#x2715;</button>
+        <img src="" alt="" class="lightbox-img" id="lightboxImg">
+    </div>
+
+    <script src="js/main.js?v=3"></script>
+</body>
+</html>
