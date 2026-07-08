@@ -923,6 +923,13 @@ section { padding: 110px 0; }
 }
 
 @media (max-width: 768px) {
-    .lightbox { padding: 24px; }
+    .lightbox { padding: 6px; }
     .lightbox-close { top: 12px; right: 12px; }
+    .lightbox-img { max-width: 99%; max-height: 96%; }
+    .contact-img {
+        width: 100vw;
+        margin-left: calc(-50vw);
+    }
+    .contact { padding-bottom: 0; }
+    .footer { padding: 24px 0; }
 }
